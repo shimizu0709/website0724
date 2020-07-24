@@ -1,0 +1,35 @@
+#topicon{
+    width: 100%;
+    text-align: center;
+
+}
+
+#topicon
+img{
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#head{
+
+    width: 100%;
+    position: relative;
+
+}
+#head
+video{
+    width: 100%;
+    position: absolute;
+}
+
+#head
+img{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    
