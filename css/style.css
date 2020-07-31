@@ -13,23 +13,58 @@ img{
 
 }
 
-#head{
+#header{
 
     width: 100%;
+    height: 54vw;
     position: relative;
 
 }
-#head
+#header
 video{
     width: 100%;
     position: absolute;
 }
 
-#head
+#header
 img{
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-    
+
+.btn--orange{
+    position: absolute;
+    z-index: 1;
+    padding: 5px 70px;
+    top: 60%;
+    left: 50%;
+    background-color: #e67b04;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.btn--blue{
+    position: absolute;
+    z-index: 1;
+    padding: 5px 50px;
+    top: 60%;
+    left: 25%;
+    background-color: #007dd1;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+#news{
+    background-image: url("../image/news-bg.jpg");
+    width: 100%;
+    height: 350px;
+
+}
